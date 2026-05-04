@@ -1,0 +1,21 @@
+lass ace:
+    def set_dim(self,a,b,c,d):
+        self.tot=a+b+c
+        self.name=d
+    def display(self):
+        print("marks is:",self.tot)
+        print("Name is:",self.name)
+class vbit:
+    def set_dim(self,a,b,c,d):
+        self.tot=a+b+c
+        self.name=d
+    def display(self):
+        print("marks is:",self.tot)
+        print("Name is:",self.name)
+
+a=ace()
+a.set_dim(20,30,40,"raju")
+a.display()
+b=vbit()
+b.set_dim(20,30,50,"btech babu")
+b.display()
